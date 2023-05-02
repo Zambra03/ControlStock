@@ -1,8 +1,8 @@
 import React from "react";
 import Mylogin from "../components/MyLogin/Mylogin";
 import MyForgotP from "../components/MyLogin/MyForgotP";
-import Button from "../components/MyButton/Button";
-import MyRegister from "../components/MyLogin/MyRegister";
+import ButtonLog from "../components/MyButton/ButtonLog";
+import MyReg from "../components/MyLogin/MyReg";
 import '../styles/Login.css'
 
 const Login = () => {
@@ -13,8 +13,8 @@ const Login = () => {
                     <h1> Log in </h1>
                         <Mylogin />
                         <MyForgotP />
-                        <Button />
-                        <MyRegister />
+                        <ButtonLog />
+                        <MyReg />
                 </form>
             </div>
         </div>

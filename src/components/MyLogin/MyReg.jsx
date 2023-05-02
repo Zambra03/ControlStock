@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MyRegister = () => {
+const MyReg = () => {
   return (
     <div className='register'>
         <p>Don't have account <a href="">Sign up</a></p>
@@ -8,4 +8,4 @@ const MyRegister = () => {
   )
 }
 
-export default MyRegister
+export default MyReg

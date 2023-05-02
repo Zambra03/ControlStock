@@ -1,12 +1,11 @@
 import React from 'react'
 import MyButton from '../MyProps/MyButton'
-
-const Button = () => {
+const ButtonReg = () => {
   return (
     <>
-        <MyButton name="Log in" />
+        <MyButton name="Register" />
     </>
   )
 }
 
-export default Button
+export default ButtonReg
