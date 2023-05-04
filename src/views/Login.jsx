@@ -1,5 +1,5 @@
 import React from "react";
-import Mylogin from "../components/MyLogin/Mylogin";
+import MyLogin from "../components/MyLogin/MyLogin";
 import MyForgotP from "../components/MyLogin/MyForgotP";
 import ButtonLog from "../components/MyButton/ButtonLog";
 import MyReg from "../components/MyLogin/MyReg";
@@ -11,7 +11,7 @@ const Login = () => {
             <div className="Login-container">
                 <form action="" >
                     <h1> Log in </h1>
-                        <Mylogin />
+                        <MyLogin />
                         <MyForgotP />
                         <ButtonLog />
                         <MyReg />

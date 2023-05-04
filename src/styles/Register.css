@@ -92,18 +92,20 @@ i{
     top: 13px;
     right: 0;
 }
+
 .Already-account{
     font-size: .9em;
     color: #fff;
     text-align: center;
     margin: 25px 0 10px;
 }
-.Already-account a{
+
+.Already-account p a{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
 }
 
-.Already-account a:hover{
+.Already-account p a:hover{
     text-decoration: underline;
 }

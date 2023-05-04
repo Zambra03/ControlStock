@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const MyAccount = () => {
   return (
     <div className='Already-account'>
-        <span><a href="#"> Already have an account?</a></span>
+        <p><Link to="/">Already have an account?</Link></p>
     </div>
   )
 }
