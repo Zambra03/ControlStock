@@ -11,6 +11,7 @@ const MyLogin = () => {
       <i class='bx bx-lock-open-alt'></i>
       <MyInput label="Password:" type="password" />
     </div>
+    
     </>
   );
 }

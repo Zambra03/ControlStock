@@ -1,12 +1,12 @@
 import React from 'react'
-import MyButton from '../MyProps/MyButton'
+import { Link } from 'react-router-dom';
 
 const ButtonLog = () => {
   return (
-    <>
-        <MyButton name="Log in" />
-    </>
+    <div>
+      <Link to="/home" className="button">Log in</Link>
+    </div>
   )
 }
 
-export default ButtonLog
+export default ButtonLog;

@@ -1,7 +1,7 @@
 import React from 'react'
 import MyInput from '../MyProps/MyInput'
 const MyRegister = () => {
-  return (
+return (
     <>
     <div className='input-box'>
       <i class='bx bx-user'></i>
