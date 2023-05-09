@@ -14,7 +14,6 @@ const Login = () => {
                 <h1> Log in </h1>
                     <MyLogin />
                     <MyForgotP />
-                    <ButtonLog />
                     <MyReg />
             </div>
         </div>

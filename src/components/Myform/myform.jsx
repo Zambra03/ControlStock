@@ -39,7 +39,7 @@ const MyForm = () => {
       <div className='inputbox'>
         <MyInput type="password" name="contraseña" label="Password" ref={refContraseña} />
       </div>
-      <button type="submit">Enviar</button>
+      <button type="submit">Log in</button>
     </form>
   );
 };
