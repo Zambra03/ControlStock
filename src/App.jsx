@@ -1,10 +1,12 @@
 import React from 'react';
 import Login from './views/Login';
+import Tables from './views/Tables';
+
 function App() {
 
   return (
     <section>
-      <Login />
+      <Tables/>
     </section>
   )
 }
