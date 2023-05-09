@@ -13,7 +13,8 @@ const enviardata = async (url,data)=>{
     });
     console.log(resp);
     const json = await resp.json();
-    console.log(json);
+
+    console.log(json.conectado);
 }
 const MyForm = () => {
   const refUsuario = useRef(null);
