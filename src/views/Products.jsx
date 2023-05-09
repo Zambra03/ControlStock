@@ -46,9 +46,10 @@ export function Products() {
                 </tr>
                 <tr>
                     <td>STATE</td>
-                    <td>
-                        <input type="text"  ></input>
-                    </td>
+                        <select>
+                            <option value="valor1">GOOD</option>
+                            <option value="valor2">WRONG</option>
+                       </select>
                 </tr>
             </table>
       
@@ -96,9 +97,10 @@ export function Products() {
                 </tr>
                 <tr>
                     <td>STATE</td>
-                    <td>
-                        <input type="text"  ></input>
-                    </td>
+                        <select>
+                            <option value="valor1">GOOD</option>
+                            <option value="valor2">WRONG</option>
+                       </select>
                 </tr>
             </table>
             <button name="save">SAVE</button>

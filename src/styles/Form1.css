@@ -16,6 +16,9 @@
     justify-content: center;
     align-items: center;
     padding: 100px 10% 0;
+    /* border-collapse: separate;
+    border-spacing: 0 10px;
+    border-radius: 10px; */
 }
 
 h1 {
