@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import { Light,Dark } from './styles/Themes'; 
 import { ThemeProvider } from 'styled-components';
+import {Products} from './views/Products';
 export const ThemeContext = React.createContext(null);
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Container className={sidebarOpen? "sidebarState active":""}>
                 <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen}/>
                 <MyRoutes/>
+                
           </Container>
         </BrowserRouter>
       </ThemeProvider>

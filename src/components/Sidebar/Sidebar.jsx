@@ -144,18 +144,19 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     padding-bottom: ${v.lgSpacing};
-    .imgcontent{
-      display: flex;
+    text-align: center;  
+    margin: 8px 0px;
+    padding: 0px 15px;
       img{
-        max-width: 50%;
+        max-width: 40%;
         height: auto;
-        margin: 8px 0;
-        padding: auto;
+        margin: auto;
+        padding: 0;
+        justify-content: center;
       }
       cursor:pointer;
       transition: all 0.3s;
       transform: ${({isOpen})=>(isOpen?'scale(0.3)':'scale(0.9)')}
-    }
     h2{
       display: ${({isOpen})=>(!isOpen?
         'none':'block')};
