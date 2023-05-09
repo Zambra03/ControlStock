@@ -14,7 +14,7 @@ const enviardata = async (url,data)=>{
     console.log(resp);
     const json = await resp.json();
 
-    console.log(json.conectado);
+    console.log(json);
 }
 const MyForm = () => {
   const refUsuario = useRef(null);
