@@ -56,8 +56,8 @@ h1{
 
 input:focus ~ label,
 input:valid ~ label{
-top: -5px;
-}
+top: -5px; 
+ } 
 
 .inputbox input{
     width: 90%;

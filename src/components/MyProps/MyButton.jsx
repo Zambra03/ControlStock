@@ -1,9 +1,12 @@
 import React from 'react'
 
 const MyButton = (button) => {
+  const handlelogin=() => {
+    console.log(useRef);
+  }
   return (
     <>
-    <button>{button.name}</button>
+    <button onClick={handlelogin}>{button.name}</button>
     </>
   )
 }
