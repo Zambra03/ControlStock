@@ -10,37 +10,31 @@ export const ThemeContext = React.createContext(null);
 function App() {
   const [theme, setTheme] = useState("light");
   const  themeStyle=theme === "light"? Light:Dark;
-  const CambiarTheme =()=> {
-    setTheme((theme)=>(theme === "light"?"dark":"light"));}
-  const [sidebarOpen,setSidebarOpen] = useState(true)
+  const [sidebarOpen,setSidebarOpen] = useState(true);
     return (
     <>
     <ThemeContext.Provider value= {{setTheme,theme}}>
       <ThemeProvider theme={themeStyle}>
         <BrowserRouter>
-          <Container>
-            <main className={sidebarOpen? "sidebarState active":"sidebarState"}>
-                <Sidebar />
+          <Container className={sidebarOpen? "sidebarState active":""}>
+                <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen}/>
                 <MyRoutes/>
-            </main>
-            <input type='checkbox'
-            onClick={CambiarTheme}></input>
           </Container>
         </BrowserRouter>
       </ThemeProvider>
     </ThemeContext.Provider>
-      
     </>
   );
 }
 const Container = styled.div`
-.sidebarState {
+
   display: grid;
   grid-template-columns:90px auto;
   background:${({theme})=>theme.bgtotal};
+  transition:all 0.3s;
   &.active{
     grid-template-columns:300px auto;
   }
-}
+  color:${({theme})=>theme.text}
 `;
 export default App;

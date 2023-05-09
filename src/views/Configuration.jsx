@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from "styled-components";
 
-export function Home() {
+export function Configuration() {
   return (
     <Container>
-      <h1>Home</h1>
+      <h1>Configuration</h1>
     </Container>
   )
 }
 const Container = styled.div`
-  height: 100vh;
-`;
+height: 100vh;`;
